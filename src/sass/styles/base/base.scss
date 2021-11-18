@@ -1,0 +1,20 @@
+body{
+    background-color: $colorSecondary;
+    font-family: 'Roboto Mono', monospace;
+    height: 100vh;
+}
+
+p {
+    color: $white;
+}
+
+.nav-menu {
+    list-style: none;
+}
+
+.button{
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}

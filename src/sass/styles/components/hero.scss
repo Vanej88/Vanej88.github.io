@@ -1,0 +1,104 @@
+.hero{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    margin:32px;
+
+    &-msg{
+        background-color: $neutroColor;
+        padding: 8px;
+    }
+
+    &-btn{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    &-icon{
+        margin: 16px 8px;
+        color: $white; 
+        font-size: 24px;
+    }
+}
+
+.card{
+    padding:48px 24px 16px 24px;
+    width:40%;
+    margin-bottom: 32px;
+    border: 1px solid $white;
+
+    &__box-img{
+        margin-bottom: 16px;
+    }
+
+    &__img{
+        width:100%;
+        object-fit: cover;
+        height: 150px;
+    }
+
+    &__title{
+        margin-bottom: 24px;
+        font-weight: 700;
+    }
+
+    &__description{
+        line-height: 2;
+    }
+}
+
+@media (max-width: 675px){
+    .hero{
+       
+        &-msg{
+            font-size: 16px;
+            margin-top: 48px;
+        }
+    
+        &-icon{
+            font-size: 16px;
+        }
+    }
+    
+    .card{
+        width:70%;
+    
+        &__description{
+            font-size: 8px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .hero{
+       
+        &-msg{
+            font-size: 16px;
+            margin-bottom: 0px;
+        }
+    
+        &-icon{
+            font-size: 16px;
+        }
+    }
+    
+    .card{
+        width:70%;
+    
+        &__description{
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 1200px){
+
+    .card{
+        width:70%;
+    
+        &__description{
+            font-size: 16px;
+        }
+    }
+}

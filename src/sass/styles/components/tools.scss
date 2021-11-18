@@ -1,0 +1,52 @@
+svg{
+    fill: white;    
+}
+
+#icon-style path{
+    fill: $colorSecondary;
+    stroke: white; 
+}
+
+.tool{
+
+    &__text-box{
+        display: flex;
+        justify-content: center;
+        margin: 48px;
+       
+    }
+    
+    &__icon-box{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+        justify-items: center;
+        max-width: 500px; 
+        margin: 32px auto;         
+    }
+
+    &-icon{
+        height: 5em;
+        width: 5em; 
+    }
+}
+
+@media (max-width:675px) {
+
+    .tool {
+
+        &__title{
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        &__icon-box{
+            margin: 32px 16px;
+        }
+
+        &-icon{
+            height: 3em;
+            width: 3em;
+        }
+    }
+}

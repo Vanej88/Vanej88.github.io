@@ -1,0 +1,15 @@
+@import './utilities/variables.scss';
+
+@import './base/reset'; 
+@import './base/box-sizing';
+@import './base/base';
+@import './base/fonts';
+@import './base/heading.scss'; 
+
+@import './components/intro.scss'; 
+@import './components/header-nav.scss';
+@import './components/hero.scss';
+@import './components/tools.scss'; 
+@import './components//about.scss';
+@import './components/contact.scss';
+@import './components/footer.scss'; 

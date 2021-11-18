@@ -1,0 +1,52 @@
+.contact{
+    display: grid;
+    justify-items: center;
+    max-width: 600px;
+    margin: 72px auto; 
+
+    &__title{
+        margin-bottom: 8px;
+    }
+
+    &__text{
+        margin-top: 32px; 
+        text-align: center;
+        line-height: 2;
+    }
+
+    &__btn{
+        display:flex;
+        align-content: center;
+        background-color: $formColor;
+        font-size: 16px;
+        margin-top: 32px;
+        padding: 16px;
+    }
+
+    &__link{
+        text-decoration: none;
+        color: $neutroColor;
+    }
+    
+    &__icon{
+
+       margin-right: 8px;
+
+       &--profile{
+           margin:16px;
+           color: $white;
+           height: 2em;
+           width: 2em; 
+       }
+    }
+}
+
+.contact-profile-box{
+    display:flex;
+}
+
+@media (max-width: 675px) {
+    .contact{
+        margin: 48px 24px 16px 24px; 
+    }
+}

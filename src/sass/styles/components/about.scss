@@ -1,0 +1,38 @@
+.photo-box{
+    display:grid;
+    justify-items: center;  
+    margin-top: 16px;
+}
+
+.photo{
+    border-radius: 8px;
+    height: 200px;
+}
+
+.bio{
+    display: flex; 
+    justify-items: center;
+    flex-direction: column;
+    max-width: 60%;
+    margin: 0 auto; 
+
+    &__text{
+        margin: 24px; 
+        line-height: 2;
+        //text-align: justify;
+    }
+}
+
+@media (max-width: 675px){
+
+    .photo-box{ 
+        margin-top: 48px;
+    }    
+}
+
+@media (max-width: 768px){
+
+    .photo-box{ 
+        margin-top: 48px;
+    }    
+}

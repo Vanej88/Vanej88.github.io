@@ -1,0 +1,31 @@
+.footer{
+    display:flex;
+    justify-content: center;
+    border-top: 1px solid $formColor;
+    margin-top: 16px;
+
+    &--tools{
+        margin-top: 5%;
+    }
+
+    &__msg{
+        color: $white;
+        padding: 16px;
+    }
+}
+
+@media (max-width: 675px) {
+
+    .footer{
+        margin-top: 30%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .footer{
+        margin-top: 20%;
+    }
+
+}
