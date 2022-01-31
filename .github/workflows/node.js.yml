@@ -25,7 +25,7 @@ jobs:
     # - run: git clone https://github.com/Vanej88/Vanej88.github.io.git demo
     # - run: cp -r demo/* .
     # - run: rm -rf demo
-
+    - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
       with:
