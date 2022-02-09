@@ -25,7 +25,19 @@
 @media (max-width: 768px) {
 
     .footer{
+        margin-top: 65%;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .footer{
         margin-top: 20%;
+
+        &--contact{
+            margin-top: 35%;
+        }
     }
 
 }

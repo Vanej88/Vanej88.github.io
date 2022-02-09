@@ -17,8 +17,24 @@ function Cards() {
                     <FaAngleDown className="hero-icon"/>
                 </button>
 
+            </div>
+            
+            <div className="card-box">
+
                 <div className="card">
-                    
+
+                    <div className="card__box-img">
+                        <a href="https://vanej88.github.io/Airbnb-practice/"><img className="card__img" src={imagenes.project2} alt="project2"></img></a>
+                    </div>
+                    <div className="card__box-text">
+                        <p className="card__title">Fake AirBnB</p>
+                        <p className="card__description">Maquetación de una página web que muestra diversas opciones de pisos y challets para vacacionar. Está hecha tanto en versión desktop como versión Mobile.</p>
+                    </div>
+
+                </div>
+
+                <div className="card">
+
                     <div className="card__box-img">
                         <a href="https://vanej88.github.io/Rick-Morty/"><img className="card__img" src={imagenes.project1} alt="project1"></img></a>
                     </div>
@@ -32,11 +48,11 @@ function Cards() {
                 <div className="card">
 
                     <div className="card__box-img">
-                        <a href="https://vanej88.github.io/Airbnb-practice/"><img className="card__img" src={imagenes.project2} alt="project2"></img></a>
+                        <img className="card__img" src={imagenes.project4} alt="project4"></img>
                     </div>
                     <div className="card__box-text">
-                        <p className="card__title">Fake AirBnB</p>
-                        <p className="card__description">Maquetación de una página web que muestra diversas opciones de pisos y challets para vacacionar. Está hecha tanto en versión desktop como versión Mobile.</p>
+                        <p className="card__title">Adopt a Dog</p>
+                        <p className="card__description">Es una aplicación que permite la búsqueda de diversas de perros. Este proyecto fue hecho con Vanilla JavaScript en versión desktop y Mobile.</p>
                     </div>
 
                 </div>
@@ -54,8 +70,8 @@ function Cards() {
                 </div>
 
             </div>
-
-            <div className="footer">
+               
+            <div className="footer footer--hero">
                 <span className="footer__msg">Made by Vanessa</span>
             </div>
         </div>

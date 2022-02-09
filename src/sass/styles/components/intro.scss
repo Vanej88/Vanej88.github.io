@@ -10,11 +10,6 @@
         align-self: center;
     }
 
-    // &-icon{
-    //     fill: $white;
-    //     stroke: $white;
-    // }
-
     &__description{
         line-height: 2;  
     }
@@ -93,9 +88,21 @@
 
         &__img{
             object-fit: cover;
-            width:80%;
+            width:105%;
         }
 
     }
 
+}
+
+
+@media (max-width: 1200px){
+    .intro{
+        height: 90vh;
+
+        &__right{
+            align-self: center;
+        }
+    }
+   
 }

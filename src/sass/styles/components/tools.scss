@@ -9,11 +9,17 @@ svg{
 
 .tool{
 
+    height: 85vh; 
+    display: grid;
+    align-content: center;
+
+    &__title{
+        font-size: 32px;
+    }
     &__text-box{
         display: flex;
         justify-content: center;
-        margin: 48px;
-       
+        margin-left:16px;   
     }
     
     &__icon-box{
@@ -36,12 +42,12 @@ svg{
     .tool {
 
         &__title{
-            font-size: 16px;
+            font-size: 20px;
             line-height: 1.5;
         }
 
         &__icon-box{
-            margin: 32px 16px;
+            margin: 150px 16px;
         }
 
         &-icon{

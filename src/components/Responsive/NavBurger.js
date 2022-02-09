@@ -12,11 +12,11 @@ function NavBurger({ open }) {
                 </a>
             </button>
         </div> */}
+        <a className="nav-mobile__link" href="/">Home</a>
         <a className="nav-mobile__link" href="/proyectos">Proyectos</a>
         <a className="nav-mobile__link" href="/tools">Herramientas</a>
         <a className="nav-mobile__link" href="/acerca">Acerca de mi</a>
         <a className="nav-mobile__link" href="/contacto">Contacto</a>
-        <a className="nav-mobile__link" href="/">Home</a>
     </NavWrapper>
   )
 }

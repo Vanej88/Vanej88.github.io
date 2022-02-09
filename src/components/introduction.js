@@ -24,8 +24,8 @@ function Home() {
                 </div>
             </div>
 
-            <div className="footer">
-                <span className="footer__msg">Made by Vanessa 2022</span>
+            <div className="footer footer--intro">
+                <span className="footer__msg">Made by Vanessa</span>
             </div>
 
         </div>

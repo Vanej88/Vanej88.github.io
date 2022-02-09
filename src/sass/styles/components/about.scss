@@ -1,7 +1,7 @@
 .photo-box{
     display:grid;
     justify-items: center;  
-    margin-top: 16px;
+    margin-top: 72px;
 }
 
 .photo{
@@ -19,7 +19,6 @@
     &__text{
         margin: 24px; 
         line-height: 2;
-        //text-align: justify;
     }
 }
 

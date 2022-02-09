@@ -22,9 +22,15 @@
     }
 }
 
+.card-box{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
 .card{
     padding:48px 24px 16px 24px;
-    width:40%;
+    width:60%;
     margin-bottom: 32px;
     border: 1px solid $white;
 
@@ -52,7 +58,7 @@
     .hero{
        
         &-msg{
-            font-size: 16px;
+            font-size: 20px;
             margin-top: 48px;
         }
     
@@ -60,9 +66,14 @@
             font-size: 16px;
         }
     }
+
+
+    .card-box{
+        grid-template-columns: repeat(1, 1fr);
+    }
     
     .card{
-        width:70%;
+        width:85%;
     
         &__description{
             font-size: 8px;
@@ -74,7 +85,7 @@
     .hero{
        
         &-msg{
-            font-size: 16px;
+            font-size: 20px;
             margin-bottom: 0px;
         }
     
@@ -83,8 +94,13 @@
         }
     }
     
+
+    .card-box{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     .card{
-        width:70%;
+        width: 85%;
     
         &__description{
             font-size: 16px;
@@ -95,10 +111,14 @@
 @media (max-width: 1200px){
 
     .card{
-        width:70%;
+        width:75%;
     
         &__description{
             font-size: 16px;
         }
+    }
+
+    .card-box{
+        margin-bottom: 94px;
     }
 }

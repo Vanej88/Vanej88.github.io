@@ -26,9 +26,10 @@ function Tools(){
                     <span><VscTerminalLinux className="tool-icon"/></span>  
                     <span><SiVisualstudiocode className="tool-icon"/></span>  
                 </div>
-                <div className="footer footer--tools">
-                    <span className="footer__msg">Made by Vanessa</span>
-                </div>
+            </div>
+                
+            <div className="footer footer--tools">
+                <span className="footer__msg">Made by Vanessa</span>
             </div>
         </div>
     )

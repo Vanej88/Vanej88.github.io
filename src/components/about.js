@@ -21,6 +21,7 @@ function Acerca() {
             <div className="footer">
                 <span className="footer__msg">Made by Vanessa</span>
             </div>
+            
         </div>
     )
 }
